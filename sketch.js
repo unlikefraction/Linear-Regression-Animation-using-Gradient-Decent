@@ -26,7 +26,7 @@ function setup () {
 function draw () {
   background(20);
 
-  fill(255);
+  fill('#40e0d0');
   noStroke();
   textFont('arial');
   textSize(25);
