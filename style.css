@@ -1,21 +1,29 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;
+  background-color: rgb(20, 20, 20);
 }
 canvas {
   display: block;
+  border-bottom: 3px #40e0d0 solid;
 }
 
 button{
 	position: relative;
-	height: 40px;
-	width: 100px;
-	top: 20px;
+	top: 10px;
 	left: 50%;
-	background: #f1f1f1;
-	border:none;
-	border-radius: 20px;
-	/*border: 2px #3cb44b solid;*/
-	box-shadow: 5px 5px 5px #c7c4bb,-5px -5px 5px #ffffff ;
+	transform: translateX(-50%);
+	font-size: 1.5em;
+	padding: 0.5em 1em;
+	background-color: rgb(20, 20, 20);
+	border: 2px #40e0d0 solid;
+	color: #40e0d0;
+	transition: 0.2s;
+	outline: none;
+}
+
+button:hover{
+	background-color: #40e0d0;
+	color: rgb(20, 20, 20);
+	transition: 0.2s;
 }
