@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+canvas {
+  display: block;
+}
+
+button{
+	position: relative;
+	height: 40px;
+	width: 100px;
+	top: 20px;
+	left: 50%;
+	background: #f1f1f1;
+	border:none;
+	border-radius: 20px;
+	/*border: 2px #3cb44b solid;*/
+	box-shadow: 5px 5px 5px #c7c4bb,-5px -5px 5px #ffffff ;
+}
