@@ -2,7 +2,7 @@
 
 This is an animation of Linear Regression, which uses gradient decent to make sure that you understand the underlying proncipals of Linear Regression. 
 
-You can see the website on https://linear-regression-animation.netlify.app/
+You can see the website on https://linear-regression-visualization.netlify.app/
 
 For YouTube Video, go to https://www.youtube.com/channel/UCErV65oPNiYu-uLNs_AmwaA
 
